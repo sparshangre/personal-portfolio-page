@@ -1,135 +1,68 @@
-### Overview
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Use the HTML and CSS foundations knowledge to create your own personal portfolio page mentioning your bio, goals and contact details
+## Available Scripts
 
-### Learning pre-requisites
-Before starting this project make sure that you have completed learning following topics and solve the corresponding quizzes
-- HTML basic structure
-- HTML paragraphs
-- HTML lists
-- HTML links
-- HTML headings
-- CSS box model
-- CSS units
+In the project directory, you can run:
 
-### Web Page Mock Up
-Following is the sample of how your final page should look like. Follow the step by step tasks in order to recreate the page shown below. We encourage you to add your own data instead of the dummy data used in the following screen.
+### `yarn start`
 
-![](images/profile.PNG)
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### User Stories
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-#### User Story 1
-As this is the first time you will be creating a full-fledged web page, we recommend you to set up your laptop with the IDE. You can use any IDE but we recommend you use [Visual Studio Code](https://code.visualstudio.com/) which is freely available. You can go through a quick setup guide available [here](https://code.visualstudio.com/docs/setup/setup-overview) for all operating systems.
+### `yarn test`
 
-#### User Story 2
-Now that you have setup the IDE and ready to roll let us start building the web page.
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Start a new project and create a new file `index.html` in the same.
+### `yarn build`
 
-Add the following HTML code to get started
-```html
-<!DOCTYPE html>
-<html>
-<head>
-  <title></title>
-</head>
-<body>
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-</body>
-</html>
-```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Add your own title between the `<title>` tags
+### `yarn eject`
 
-*The above code is the boilerplate code to be included everytime you create an HTML file for your website.*
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-Now, create a new file named `style.css` and add the following CSS code to the same to get started. 
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-```css
-* {
-    font-family: Helvetica, Arial, sans-serif;
-    max-width: 700px;
-    margin: auto;
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-  }
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-body {
-      min-width: 500px;
-      background-color: #e0eeee;
-  }
-```
+## Learn More
 
-*The above code will result in the following page view*
-![](images/profile_1.PNG)
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-#### User Story 3
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-In the `<head>` section, link the CSS stylesheet to the HTML file
+### Code Splitting
 
-Use the link tag (`<link href="style.css" type="text/css" rel="stylesheet">`)
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-#### User Story 4
-Create a `<div>` tag with class name as 'profileBody' in the HTML file
-The add the following styling to the css file 
-```css
-.profileBody {
-    display: inline-block;
-    background-color: white;
-    margin-top: 6px;
-    margin-left: 55px;
-    width: 75%;
-    height: 590px;
-  }
+### Analyzing the Bundle Size
 
-```
-*Adding the above code should result in the following view:*
-![](images/profile_2.PNG)
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
+### Making a Progressive Web App
 
-(Feel free to play around with the values)
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-#### User Story 5
+### Advanced Configuration
 
-Inside the `profileBody <div>`(for all consequent tasks, put everything inside it as well), use `<h1>` to write your name and `<h2>` to write your job title 
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-Add the CSS styling for this element of your choice
+### Deployment
 
-#### User Story 6
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-Add a horizontal break(`<hr />`)
+### `yarn build` fails to minify
 
-
-#### User Story 7
-
-Using `<p>`, write your bio profile. Remember to emphasise the 'Profile' heading using `<strong>`
-
-Add the CSS styling for this element of your choice
-
-
-#### User Story 8
-
-Add a horizontal break(`<hr />`)
-
-#### User Story 9
-
-Using `<p>` & `<ul>`, write down your goals. Remember to emphasise the 'Goals' heading using `<strong>`
-
-Add the CSS styling for this element of your choice
-
-#### User Story 10
-
-Add a horizontal break(`<hr />`)
-
-
-#### User Story 11
-
-Using `<p>` & `<a>`, write down your email contact info. Remember to emphasise the 'Contact Details' heading using `<strong>`
-
--------------------
-
-The above tasks are the minimum expected of you. 
-
-You are free to add as much personalization as you want in the portfolio page.
-
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
